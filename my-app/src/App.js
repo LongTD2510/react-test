@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Welcome from './components/test';
+import Clothes from './Clothes';
+import StageComponent from './components/stages';
+import ForceUpdate from './forceUpdate.tsx';
+import DomNode from './domNode.tsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Welcome />
+      <hr></hr> */}
+      {/*
+      <ForceUpdate /> ForceUpdate
+      <hr></hr> */}
+      <DomNode /> Dom Node
+      <hr></hr>
+
     </div>
+    /* Prop*/
+    // <div>
+    //   <Clothes name= "Jean" type = "Skinny" color="Red" size ="L">Clothes 1</Clothes>
+    //   <Clothes name= "Dress" type = "Dress" color="Blue" size ="M">Clothes 2</Clothes>
+    // </div>
+    /* Stage Component*/
+    // <div>
+    //   <StageComponent/>
+    // </div>
+
   );
 }
 
