@@ -5,6 +5,8 @@ import Clothes from './Clothes';
 import StageComponent from './components/stages';
 import ForceUpdate from './forceUpdate.tsx';
 import DomNode from './domNode.tsx';
+import ComponentLifeCycle from './componentLifeCycle';
+import HandleEvent from './components/handleEvent/handleEvents';
 function App() {
   return (
     <div>
@@ -13,9 +15,11 @@ function App() {
       {/*
       <ForceUpdate /> ForceUpdate
       <hr></hr> */}
-      <DomNode /> Dom Node
-      <hr></hr>
-
+      {/* <DomNode /> Dom Node
+      <hr></hr> */}
+      {/* <ComponentLifeCycle /> */}
+      <HandleEvent/>
+      <hr />
     </div>
     /* Prop*/
     // <div>
