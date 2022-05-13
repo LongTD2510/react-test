@@ -7,6 +7,7 @@ import ForceUpdate from './forceUpdate.tsx';
 import DomNode from './domNode.tsx';
 import ComponentLifeCycle from './componentLifeCycle';
 import HandleEvent from './components/handleEvent/handleEvents';
+import FormSubmit from './components/formSubmit/formSubmit';
 function App() {
   return (
     <div>
@@ -18,7 +19,8 @@ function App() {
       {/* <DomNode /> Dom Node
       <hr></hr> */}
       {/* <ComponentLifeCycle /> */}
-      <HandleEvent/>
+      {/* <HandleEvent/> */}
+      <FormSubmit/>
       <hr />
     </div>
     /* Prop*/
