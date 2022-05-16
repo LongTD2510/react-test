@@ -8,6 +8,9 @@ import DomNode from './domNode.tsx';
 import ComponentLifeCycle from './componentLifeCycle';
 import HandleEvent from './components/handleEvent/handleEvents';
 import FormSubmit from './components/formSubmit/formSubmit';
+import RenderWithCondition from './components/renderWithCondition/renderCondition';
+import ListAndKeyReact from './components/listAndKey/listAndKeyReact';
+import Caculator from './components/liftingStateUp/caculator';
 function App() {
   return (
     <div>
@@ -20,7 +23,10 @@ function App() {
       <hr></hr> */}
       {/* <ComponentLifeCycle /> */}
       {/* <HandleEvent/> */}
-      <FormSubmit/>
+      {/* <FormSubmit/> */}
+      {/* <RenderWithCondition/> */}
+      {/* <ListAndKeyReact/> */}
+      <Caculator/>
       <hr />
     </div>
     /* Prop*/
