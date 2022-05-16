@@ -43,3 +43,11 @@ code {
   height: 424px;
   overflow: auto;
 }
+.flex__tab{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.item__button{
+  margin-right: 10px;
+}
