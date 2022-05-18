@@ -11,6 +11,10 @@ import FormSubmit from './components/formSubmit/formSubmit';
 import RenderWithCondition from './components/renderWithCondition/renderCondition';
 import ListAndKeyReact from './components/listAndKey/listAndKeyReact';
 import Caculator from './components/liftingStateUp/caculator';
+import ReactReft from './components/reactRefs/reactReft';
+import ContextReactjs from './components/contextReactjs/contextReactjs';
+import ContextApi from './components/contextReactjs/contextApi/contextApi';
+import FragmentReact from './components/fragmentsReact/fragmentReact';
 function App() {
   return (
     <div>
@@ -26,7 +30,11 @@ function App() {
       {/* <FormSubmit/> */}
       {/* <RenderWithCondition/> */}
       {/* <ListAndKeyReact/> */}
-      <Caculator/>
+      {/* <Caculator/> */}
+      {/* <ReactReft/> */}
+      {/* <ContextReactjs/> */}
+      {/* <ContextApi/> */}
+      <FragmentReact/>
       <hr />
     </div>
     /* Prop*/
