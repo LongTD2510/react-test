@@ -1,20 +1,22 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Welcome from './components/test';
-import Clothes from './Clothes';
-import StageComponent from './components/stages';
-import ForceUpdate from './forceUpdate.tsx';
-import DomNode from './domNode.tsx';
-import ComponentLifeCycle from './componentLifeCycle';
-import HandleEvent from './components/handleEvent/handleEvents';
-import FormSubmit from './components/formSubmit/formSubmit';
-import RenderWithCondition from './components/renderWithCondition/renderCondition';
-import ListAndKeyReact from './components/listAndKey/listAndKeyReact';
-import Caculator from './components/liftingStateUp/caculator';
-import ReactReft from './components/reactRefs/reactReft';
-import ContextReactjs from './components/contextReactjs/contextReactjs';
-import ContextApi from './components/contextReactjs/contextApi/contextApi';
-import FragmentReact from './components/fragmentsReact/fragmentReact';
+// import Welcome from './components/test';
+// import Clothes from './Clothes';
+// import StageComponent from './components/stages';
+// import ForceUpdate from './forceUpdate.tsx';
+// import DomNode from './domNode.tsx';
+// import ComponentLifeCycle from './componentLifeCycle';
+// import HandleEvent from './components/handleEvent/handleEvents';
+// import FormSubmit from './components/formSubmit/formSubmit';
+// import RenderWithCondition from './components/renderWithCondition/renderCondition';
+// import ListAndKeyReact from './components/listAndKey/listAndKeyReact';
+// import Caculator from './components/liftingStateUp/caculator';
+// import ReactReft from './components/reactRefs/reactReft';
+// import ContextReactjs from './components/contextReactjs/contextReactjs';
+// import ContextApi from './components/contextReactjs/contextApi/contextApi';
+// import FragmentReact from './components/fragmentsReact/fragmentReact';
+// import UseStageReactjs from './components/hookReactjs/useStage/useStageReactjs';
+import UseEffectReactjs from './components/hookReactjs/useEffect/useEffectReactjs';
 function App() {
   return (
     <div>
@@ -34,7 +36,9 @@ function App() {
       {/* <ReactReft/> */}
       {/* <ContextReactjs/> */}
       {/* <ContextApi/> */}
-      <FragmentReact/>
+      {/* <FragmentReact/> */}
+      {/* <UseStageReactjs/> */}
+      <UseEffectReactjs/>
       <hr />
     </div>
     /* Prop*/
