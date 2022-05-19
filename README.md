@@ -1,5 +1,7 @@
 # react-test
 # Run : npm install
+To install axios run API
+# Run : npm i axios 
 
 # Getting Started with Create React App
 
